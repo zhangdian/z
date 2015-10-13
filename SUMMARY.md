@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [编程语言](programming_language.md)
-   * Java
+   * [Java](java.md)
 
