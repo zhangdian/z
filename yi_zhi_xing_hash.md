@@ -1,4 +1,4 @@
-# 一致性hash（consistent hashing）
+# [待整理]一致性hash(consistent hashing)
 
 先列几个通用的一致性HASH算法文章：
 
