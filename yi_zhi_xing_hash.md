@@ -36,3 +36,8 @@ The main concept here is the following:
 * If Redis is used as a store, a fixed keys-to-nodes map is used, so the number of nodes must be fixed and cannot vary. Otherwise, a system is needed that is able to rebalance keys between nodes when nodes are added or removed, and **currently only Redis Cluster is able to do this** - Redis Cluster is generally available and production-ready as of April 1st, 2015.
 
 目前只有redis cluster解决了这个问题。
+
+redis的做法，也就是Presharding：
+1. 首先在一台机器上启动很多个实例，比如32-64个
+2. 保持实例数目不变
+3. 如果随着业务的增长，需要增加机器的能力，那么就用replicate的方式，分出一半的实例到新机器上。
