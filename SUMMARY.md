@@ -16,4 +16,5 @@
            * [借方和贷方](jie_fang_he_dai_fang.md)
 * [算法](集群)
    * [一致性hash](yi_zhi_xing_hash.md)
+   * 集群
 
