@@ -1,3 +1,3 @@
 # TCP三次握手
 
-![Alt text](/path/to/img.jpg)
+![三次握手和四次握手](/images/tcp_3hands.gif)
