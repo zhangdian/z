@@ -1,10 +1,13 @@
 # 集群
 
-下面是一套lvs学习文档，待学习。
+#### 下面是一套lvs学习文档，待学习
 
 * http://www.linuxvirtualserver.org/zh/lvs1.html
 * http://www.linuxvirtualserver.org/zh/lvs2.html
 * http://www.linuxvirtualserver.org/zh/lvs3.html
 * http://www.linuxvirtualserver.org/zh/lvs4.html
 
-....
+#### 集群和分布式的区别
+
+* 分布式：一个业务分拆多个子业务，部署在不同的服务器上
+* 集群：同一个业务，部署在多个服务器上
