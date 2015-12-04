@@ -14,3 +14,5 @@
 
 
 [Zookeeper 的学习与运用](http://blog.jpush.cn/push_zookeeper_study_usage/)
+
+[Zookeeper研究和应用](http://www.searchtb.com/2011/01/zookeeper-research.html)  引入拜占庭问题
