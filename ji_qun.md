@@ -11,3 +11,6 @@
 
 * 分布式：一个业务分拆多个子业务，部署在不同的服务器上
 * 集群：同一个业务，部署在多个服务器上
+
+
+[Zookeeper 的学习与运用](http://blog.jpush.cn/push_zookeeper_study_usage/)
