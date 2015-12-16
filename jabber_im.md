@@ -5,3 +5,5 @@
 [Jabber Programmer's Guide](http://wiki.xmpp.org/web/Jabber_Programmer's_Guide)
 
 [高性能的RTC服务器OpenFire](http://gao-xianglong.iteye.com/blog/1944234)
+
+[ajaxIM](https://github.com/endtwist/AjaxIM)
