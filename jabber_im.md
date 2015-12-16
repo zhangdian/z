@@ -15,4 +15,6 @@
 
 openfire用于开发自己的程序
 
+http://tuputao.com:9090/
+
 ajaxim可以集成到网站上.
