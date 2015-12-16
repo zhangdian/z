@@ -10,7 +10,7 @@
    * [邮件_SMTP](you_jian_smtp.md)
        * [会议_iCalendar](hui_yi_icalendar.md)
    * [Http](http.md)
-   * Jabber IM
+   * [Jabber IM](jabber_im.md)
 * [算法](集群)
    * [一致性hash](yi_zhi_xing_hash.md)
    * [集群](ji_qun.md)
