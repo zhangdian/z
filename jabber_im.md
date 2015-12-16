@@ -11,3 +11,8 @@
 [openfire installer](https://www.igniterealtime.org/builds/openfire/docs/3.10.0/documentation/install-guide.html)
 
 ./bin/openfire start
+
+
+openfire用于开发自己的程序
+
+ajaxim可以集成到网站上.
