@@ -20,3 +20,5 @@ http://tuputao.com:9090/
 openfire sdk mvn 地址  http://mvnrepository.com/artifact/jivesoftware/smack
 
 ajaxim可以集成到网站上.
+
+[基于xmpp openfire smack开发之Android客户端开发](http://blog.csdn.net/shimiso/article/details/11225873)
