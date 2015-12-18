@@ -11,7 +11,7 @@
        * [会议_iCalendar](hui_yi_icalendar.md)
    * [Http](http.md)
    * [Jabber IM](jabber_im.md)
-   * shell
+   * [shell](shell.md)
 * [算法](集群)
    * [一致性hash](yi_zhi_xing_hash.md)
    * [集群](ji_qun.md)
