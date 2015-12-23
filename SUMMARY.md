@@ -14,7 +14,7 @@
    * [Jabber IM](jabber_im.md)
    * [shell](shell.md)
    * [Cache](cache.md)
-   * 设计模式
+   * [设计模式](she_ji_mo_shi.md)
 * [算法](集群)
    * [一致性hash](yi_zhi_xing_hash.md)
    * [集群](ji_qun.md)
