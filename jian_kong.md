@@ -19,3 +19,4 @@ vmstat的si和so，监控页面换入和换出的量
 让步式上下文切换
 pidstat -w -I -p 9351 5
 
+![三次握手和四次握手](/images/pidstat.png)
