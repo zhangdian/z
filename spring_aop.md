@@ -10,3 +10,5 @@ http://blog.csdn.net/dreamthen/article/details/26687727
 [Intercepting methods by annotation](http://stackoverflow.com/questions/14714092/spring-3-2-aop-intercepting-methods-by-annotation)  importent!!!!
 
 [spring aop示例](http://www.mkyong.com/spring/spring-aop-examples-advice/)
+
+aop对目标的增强，是通过拦截器实现的。
