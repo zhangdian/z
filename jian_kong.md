@@ -20,3 +20,5 @@ vmstat的si和so，监控页面换入和换出的量
 pidstat -w -I -p 9351 5
 
 ![三次握手和四次握手](/images/pidstat.png)
+
+隔离竞争锁： Oracle Solaris Studio Performance Analyzer .. 一个很好的隔离和报告JAVA锁竞争的工具
