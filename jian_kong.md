@@ -16,3 +16,5 @@ vmstat的si和so，监控页面换入和换出的量
 
 
 ### 锁监控
+pidstat -w -I -p 9351 5
+
