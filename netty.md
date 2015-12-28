@@ -9,3 +9,5 @@ apache benchmark http协议测试工具
 poll select epoll
 
 [Linux IO模式及 select、poll、epoll详解](Linux IO模式及 select、poll、epoll详解)  一个入门级别的解释，但是很详细，很全面
+
+[Netty系列之Netty可靠性分析](http://www.infoq.com/cn/articles/netty-reliability)
