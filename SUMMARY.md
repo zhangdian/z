@@ -20,7 +20,7 @@
    * [一致性hash](yi_zhi_xing_hash.md)
    * [集群](ji_qun.md)
    * [TCP三次握手](tcpsan_ci_wo_shou.md)
-   * 面试算法
+   * [面试算法](mian_shi_suan_fa.md)
 * [股票](gupiaomd.md)
    * [财务报表](cai_wu_bao_biao.md)
        * [研究资料](yan_jiu_zi_liao.md)
