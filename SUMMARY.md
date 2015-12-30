@@ -33,7 +33,6 @@
    * [POST重复提交](postzhong_fu_ti_jiao.md)
 * Linux
    * [监控](jian_kong.md)
-   * [PUTTY使用](puttyshi_yong.md)
 * [Eclipse](eclipse.md)
 * [jvm](jvm.md)
 
