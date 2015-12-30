@@ -22,4 +22,5 @@
 
 现在我在Windows上的SSH工具是SuperPutty+Putty。画风如下:
 
-![http://7xpmu3.com1.z0.glb.clouddn.com/SuperPutty%2BPutty.jpg]
+
+![SuperPutty+Putty](http://7xpmu3.com1.z0.glb.clouddn.com/SuperPutty%2BPutty.jpg)
