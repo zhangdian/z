@@ -20,4 +20,6 @@
 3. 也是使用SuperPutty，在配置的时候，在“Extra PuTTY Arguments”里面指定-pw参数，如果所使用的PuTTY不支持这个参数，那就只能用PublicKey了。
 
 
-现在我在Windows上的SSH工具是SuperPutty+Putty。
+现在我在Windows上的SSH工具是SuperPutty+Putty。画风如下:
+
+![http://7xpmu3.com1.z0.glb.clouddn.com/SuperPutty%2BPutty.jpg]
