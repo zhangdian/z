@@ -24,3 +24,8 @@
 
 
 ![SuperPutty+Putty](http://7xpmu3.com1.z0.glb.clouddn.com/SuperPutty%2BPutty.jpg)
+
+### 参考文献
+
+* [Is there a way to “auto login” in PuTTY with a password?](http://superuser.com/questions/44106/is-there-a-way-to-auto-login-in-putty-with-a-password)
+* [让 Putty 保存密码，自动登陆的三种方法](http://unmi.cc/putty-auto-login/)
