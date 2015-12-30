@@ -4,3 +4,5 @@
 
 [Win免费SSH客户端工具](http://server.zol.com.cn/522/5222509_all.html) 这里介绍了很多shell连接linux服务器的工具，都蛮好的。经过对比，我使用的是SmarTTY，支持多连接，每个连接支持多回话，还是很给力的。初步看上去，有点像tmux。用着看看。
 
+使用了一段时间SmarTTY，还是不方便，还是回归PuTTY。
+
