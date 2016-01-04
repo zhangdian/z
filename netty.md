@@ -16,4 +16,9 @@ poll select epoll
 [Netty系列之Netty可靠性分析](http://www.infoq.com/cn/articles/netty-reliability)
 
 ### netty连接池
-http://netty.io/news/2015/05/07/4-0-28-Final.html
+
+官方示例，但是不太完整：
+http://netty.io/news/2015/05/07/4-0-28-Final.html  
+
+netty channel正确的初始化方式：
+http://stackoverflow.com/questions/30795818/how-to-read-server-response-in-netty-channel-pool  
