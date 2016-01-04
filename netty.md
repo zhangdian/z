@@ -22,3 +22,6 @@ http://netty.io/news/2015/05/07/4-0-28-Final.html
 
 netty channel正确的初始化方式：
 http://stackoverflow.com/questions/30795818/how-to-read-server-response-in-netty-channel-pool  
+
+ChannelHealthChecker的处理方式
+http://grepcode.com/file/repo1.maven.org/maven2/io.netty/netty-all/4.0.30.Final/io/netty/channel/pool/ChannelHealthChecker.java
