@@ -22,3 +22,5 @@ http://www.jvmmonitor.org/download/index.html
 [tomcat配置jmx官方文档]（https://tomcat.apache.org/tomcat-7.0-doc/monitoring.html）
 
 [How to find memory leaks using visualvm](http://stackoverflow.com/questions/9154785/how-to-find-memory-leaks-using-visualvm)
+
+[How to find a Java Memory Leak](http://stackoverflow.com/questions/40119/how-to-find-a-java-memory-leak)
