@@ -19,3 +19,4 @@ http://www.jvmmonitor.org/download/index.html
 
 注意，要在jmx配置中，指定hostname。
 
+[tomcat配置jmx官方文档]（https://tomcat.apache.org/tomcat-7.0-doc/monitoring.html）
