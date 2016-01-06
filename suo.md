@@ -12,3 +12,5 @@ Lock 乐观锁
 
 
 [mysql事务和锁InnoDB](http://www.cnblogs.com/zhaoyl/p/4121010.html)
+
+InnoDB  共享锁（读）  排它锁（写）
