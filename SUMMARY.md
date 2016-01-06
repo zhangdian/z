@@ -35,5 +35,5 @@
    * [监控](jian_kong.md)
 * [Eclipse](eclipse.md)
 * [jvm](jvm.md)
-* 锁
+* [锁](suo.md)
 
