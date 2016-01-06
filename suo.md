@@ -7,3 +7,5 @@ CAS 乐观锁
 Sychorized 悲观锁
 
 Lock 乐观锁
+
+[Optimistic or pessimistic locking - Which one should you pick?](http://blog.couchbase.com/optimistic-or-pessimistic-locking-which-one-should-you-pick)
