@@ -9,3 +9,6 @@ Sychorized 悲观锁
 Lock 乐观锁
 
 [Optimistic or pessimistic locking - Which one should you pick?](http://blog.couchbase.com/optimistic-or-pessimistic-locking-which-one-should-you-pick)
+
+
+[mysql事务和锁InnoDB](http://www.cnblogs.com/zhaoyl/p/4121010.html)
