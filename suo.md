@@ -6,7 +6,7 @@ CAS 乐观锁
 
 Sychorized 悲观锁
 
-Lock 乐观锁
+Lock 乐观锁 乐观锁实现的机制就是CAS操作（Compare and Swap）
 
 [Optimistic or pessimistic locking - Which one should you pick?](http://blog.couchbase.com/optimistic-or-pessimistic-locking-which-one-should-you-pick)
 
