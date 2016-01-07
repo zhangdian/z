@@ -26,10 +26,10 @@ offer方法在添加元素时，如果发现队列已满无法添加的话，会
 
 若队列为空，抛出NoSuchElementException异常。
 
-### E take() throws InterruptedException;
-
-若队列为空，发生阻塞，等待有元素。
-
 ### E poll(long timeout, TimeUnit unit) throws InterruptedException;
 
 若队列为空，返回null。
+
+### E take() throws InterruptedException;
+
+若队列为空，发生阻塞，等待有元素。
