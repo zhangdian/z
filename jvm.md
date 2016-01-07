@@ -14,7 +14,7 @@ jstack: http://www.cnblogs.com/nexiyi/p/java_thread_jstack.html
 
 下面对各个命令的解释，都是使用的这个文档：
 
-[JVM性能调优监控工具jps、jstack、jmap、jhat、jstat、hprof使用详解](http://my.oschina.net/feichexia/blog/196575?fromerr=1uGPAVF3)
+`[JVM性能调优监控工具jps、jstack、jmap、jhat、jstat、hprof使用详解](http://my.oschina.net/feichexia/blog/196575?fromerr=1uGPAVF3)`
 
 ###jps
 
