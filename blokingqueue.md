@@ -209,7 +209,7 @@ ReentrantLock默认是是用`非公平锁`的。
 非公平锁，直接尝试获取锁。下面着重看`acquire(1)`
 
 ```
- /**
+    /**
      * Acquires in exclusive mode, ignoring interrupts.  Implemented
      * by invoking at least once {@link #tryAcquire},
      * returning on success.  Otherwise the thread is queued, possibly
@@ -217,6 +217,11 @@ ReentrantLock默认是是用`非公平锁`的。
      * #tryAcquire} until success.  This method can be used
      * to implement method {@link Lock#lock}.
      */
+    public final void acquire(int arg) {
+        if (!tryAcquire(arg) &&
+            acquireQueued(addWaiter(Node.EXCLUSIVE), arg))
+            selfInterrupt();
+    }
 ```
 
 独占的方式获取，忽略中断。
