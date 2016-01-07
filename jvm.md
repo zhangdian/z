@@ -58,6 +58,12 @@ jmap -dump:format=b,file=dumpFileName pid
 
 jhat -port 9998 dumpFileName_path
 
+
+###jstat
+
+其中详细解释了内存结构。
+
+
 ###PS:
 
  echo $((0xac))   16进制转10进制
