@@ -135,6 +135,29 @@ public final void acquireInterruptibly(int arg)
     if (!tryAcquire(arg))
         doAcquireInterruptibly(arg);
 }
+
+private void doAcquireInterruptibly(int arg)
+    throws InterruptedException {
+    final Node node = addWaiter(Node.EXCLUSIVE);
+    boolean failed = true;
+    try {
+        for (;;) {
+            final Node p = node.predecessor();
+            if (p == head && tryAcquire(arg)) {
+                setHead(node);
+                p.next = null; // help GC
+                failed = false;
+                return;
+            }
+            if (shouldParkAfterFailedAcquire(p, node) &&
+                parkAndCheckInterrupt())
+                throw new InterruptedException();
+        }
+    } finally {
+        if (failed)
+            cancelAcquire(node);
+    }
+}
 ```
 
 注意，两个condition的好处是：这里一个读锁，一个写锁。`如果用一个锁，在唤醒的时候，被阻塞的读和写都会收到信号，不知道唤醒的是读，还是写`，如果唤醒的经常错了，又得重新唤醒。
