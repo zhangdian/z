@@ -4,6 +4,8 @@
 
 ### boolean add(E e);
 
+在添加元素的时候，若超出了度列的长度会直接抛出异常：
+
 ### boolean offer(E e);
 
 ### void put(E e) throws InterruptedException;
