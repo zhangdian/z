@@ -194,3 +194,14 @@ ReentrantLock默认是是用`非公平锁`的。
 
 `非公平锁`直接尝试设置state获取锁，如果失败，走和`公平锁`一样的逻辑。
 
+
+compareAndSetState方法说明：
+
+```
+    /**
+     * Atomically sets synchronization state to the given updated
+     * value if the current state value equals the expected value.
+     * This operation has memory semantics of a {@code volatile} read
+     * and write.
+     */
+```
