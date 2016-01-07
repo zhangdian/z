@@ -288,7 +288,34 @@ ReentrantLock默认是是用`非公平锁`的。
 
 如果`tryAcquire()`失败，就会执行`acquireQueued(addWaiter(Node.EXCLUSIVE), arg))`进行等待。
 
+`addWaiter`方法，初始化等待队列的节点Node的信息，`acquireQueued`代码如下：
 
+```
+    final boolean acquireQueued(final Node node, int arg) {
+        boolean failed = true;
+        try {
+            boolean interrupted = false;
+            for (;;) {
+                final Node p = node.predecessor();
+                if (p == head && tryAcquire(arg)) {
+                    setHead(node);
+                    p.next = null; // help GC
+                    failed = false;
+                    return interrupted;
+                }
+                if (shouldParkAfterFailedAcquire(p, node) &&
+                    parkAndCheckInterrupt())
+                    interrupted = true;
+            }
+        } finally {
+            if (failed)
+                cancelAcquire(node);
+        }
+    }
+```
+首先获取节点之前的节点，如果preNode是队首，尝试获取锁。获取成功就返回。
+
+如果失败，如果需要等待，就等待否则循环尝试。
 
 
 
