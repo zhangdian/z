@@ -6,3 +6,9 @@ jstack: http://www.cnblogs.com/nexiyi/p/java_thread_jstack.html
 
 
 [JVM监控分析工具之jmap、jhat和jstack](https://github.com/yikebocai/blog/issues/32) 精华帖
+
+
+###jps
+
+jps -v 输出传入JVM的参数
+
