@@ -9,15 +9,22 @@
 
 ### boolean offer(E e);
 
+offer方法在添加元素时，如果发现队列已满无法添加的话，会直接返回false。
+
 ### void put(E e) throws InterruptedException;
 
 向队尾添加元素的时候发现队列已经满了会发生阻塞一直等待空间，以加入元素。
 
 ### boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException;
 
-offer方法在添加元素时，如果发现队列已满无法添加的话，会直接返回false。
+
 
 ## 删除元素
+
+
+### boolean remove(Object o);
+
+若队列为空，抛出NoSuchElementException异常。
 
 ### E take() throws InterruptedException;
 
@@ -26,7 +33,3 @@ offer方法在添加元素时，如果发现队列已满无法添加的话，会
 ### E poll(long timeout, TimeUnit unit) throws InterruptedException;
 
 若队列为空，返回null。
-
-### boolean remove(Object o);
-
-若队列为空，抛出NoSuchElementException异常。
