@@ -28,3 +28,5 @@ offer方法在添加元素时，如果发现队列已满无法添加的话，会
 若队列为空，返回null。
 
 ### boolean remove(Object o);
+
+若队列为空，抛出NoSuchElementException异常。
