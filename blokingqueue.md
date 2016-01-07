@@ -286,8 +286,7 @@ ReentrantLock默认是是用`非公平锁`的。
 不同之处在于，`公平锁`会调用`hasQueuedPredecessors()`，来判断，是否有其他线程等待了更长的时间，程序内部是是用`链表`的形式来保存这种关系的。
 
 
-
-
+如果`tryAcquire()`失败，就会执行`acquireQueued(addWaiter(Node.EXCLUSIVE), arg))`进行等待。
 
 
 
