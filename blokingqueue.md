@@ -1,6 +1,7 @@
 # BlokingQueue
 
-##BlockingQueue队列的几个操作原语的含义
+
+## 添加元素
 
 ### boolean add(E e);
 
@@ -13,6 +14,8 @@
 向队尾添加元素的时候发现队列已经满了会发生阻塞一直等待空间，以加入元素。
 
 ### boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException;
+
+## 删除元素
 
 ### E take() throws InterruptedException;
 
