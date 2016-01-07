@@ -38,3 +38,9 @@ offer方法在添加元素时，如果发现队列已满无法添加的话，会
 ## 初始化
 
 参数fair，指定在添加元素的时候，是`公平方式`(FIFO)还是`不公平方式`；
+
+fail参数最后传给`ReentrantLock`，它内部根据`fair`参数初始化了`Sync`对象：
+
+```
+sync = fair ? new FairSync() : new NonfairSync();
+```
