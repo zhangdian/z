@@ -119,8 +119,9 @@ sync = fair ? new FairSync() : new NonfairSync();
 
 看源代码就可以知道，`lock()`不处理中断，只是设置中断状态，`lockInterruptibly()`会处理中断，抛出中断异常。
 
-```
 两个方法会直接调用下述方法：
+
+```
 
 public final void acquire(int arg) {
     if (!tryAcquire(arg) &&
@@ -128,6 +129,8 @@ public final void acquire(int arg) {
         selfInterrupt();
 }
 
+```
+```
 public final void acquireInterruptibly(int arg)
         throws InterruptedException {
     if (Thread.interrupted())
