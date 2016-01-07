@@ -218,3 +218,5 @@ ReentrantLock默认是是用`非公平锁`的。
      * to implement method {@link Lock#lock}.
      */
 ```
+
+独占的方式获取，忽略中断。
