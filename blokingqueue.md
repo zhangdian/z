@@ -45,6 +45,18 @@ fail参数最后传给`ReentrantLock`，它内部根据`fair`参数初始化了`
 sync = fair ? new FairSync() : new NonfairSync();
 ```
 
+```
+其中一个构造函数
+    public ArrayBlockingQueue(int capacity, boolean fair) {
+        if (capacity <= 0)
+            throw new IllegalArgumentException();
+        this.items = new Object[capacity];
+        lock = new ReentrantLock(fair);
+        notEmpty = lock.newCondition();
+        notFull =  lock.newCondition();
+    }
+```
+
 内部使用数组存储元素`this.items = new Object[capacity];`
 
 
