@@ -30,3 +30,11 @@ jstack [option] [server-id@]remote-hostname-or-ip
 -l long listings，会打印出额外的锁信息，在发生死锁时可以用jstack -l pid来观察锁持有情况
 
 -m mixed mode，不仅会输出Java堆栈信息，还会输出C/C++堆栈信息（比如Native方法）
+
+
+
+
+
+###PS:
+
+ echo $((0xac))   16进制转10进制
