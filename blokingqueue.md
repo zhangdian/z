@@ -195,7 +195,7 @@ ReentrantLock默认是是用`非公平锁`的。
 `非公平锁`直接尝试设置state获取锁，如果失败，走和`公平锁`一样的逻辑。
 
 
-compareAndSetState方法说明：
+`compareAndSetState`方法说明：
 
 ```
     /**
