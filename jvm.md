@@ -61,6 +61,8 @@ jhat -port 9998 dumpFileName_path
 
 ###jstat
 
+jstat -gc 9943 250 4
+
 其中详细解释了内存结构。
 
 [JVM参数大全](http://www.cnblogs.com/edwardlauxh/archive/2010/04/25/1918603.html)
