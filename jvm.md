@@ -42,6 +42,9 @@ jstack里面的示例，很经典，很好的查找CPU利用很高的问题。
 3. 将10进制的线程号转换为16进制
 4. 在jstack栈文件中，搜索相应的16进制进程号，就找到了线程对应的栈信息
 
+### jmap（Memory Map）
+一般结合jhat（Java Heap Analysis Tool）查看堆内存使用情况。
+
 ###PS:
 
  echo $((0xac))   16进制转10进制
