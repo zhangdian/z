@@ -37,7 +37,10 @@ jstack [option] [server-id@]remote-hostname-or-ip
 
 jstack里面的示例，很经典，很好的查找CPU利用很高的问题。
 
-
+1. ps -ef 找到进程号
+2. top -Hp pid  找到占用CPU时间最高的线程（TOP的TIME+列）
+3. 将10进制的线程号转换为16进制
+4. 在jstack栈文件中，搜索相应的16进制进程号，就找到了线程对应的栈信息
 
 ###PS:
 
