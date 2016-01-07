@@ -48,7 +48,7 @@ sync = fair ? new FairSync() : new NonfairSync();
 内部使用数组存储元素`this.items = new Object[capacity];`
 
 
-## put 和 offer 锁对比
+## put 和 offer 对比
 
 ```
     public boolean offer(E e) {
@@ -81,3 +81,6 @@ sync = fair ? new FairSync() : new NonfairSync();
     }
 ```
 
+首先，获取锁的方式不一样，`offer`使用的`lock`，`put`使用的`lockInterruptibly`，为什么呢？
+
+因为，put的原语中，如果队列中没有地方了，会进行等待，等待的过程中，会抛出`中断异常`。
