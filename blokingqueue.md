@@ -117,7 +117,7 @@ sync = fair ? new FairSync() : new NonfairSync();
 
 因为，put的原语中，如果队列中没有地方了，会进行等待，所以是`可中断的`。
 
-看源代码就可以知道，`lock()`不处理中断，`lockInterruptibly()`会处理中断。
+看源代码就可以知道，`lock()`不处理中断，只是设置中断状态，`lockInterruptibly()`会处理中断，抛出中断异常。
 
 ```
 两个方法会直接调用下述方法：
