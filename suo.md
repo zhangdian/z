@@ -19,4 +19,5 @@ InnoDB  共享锁（读）  排它锁（写）
 乐观锁适用于写比较少的情况下，即冲突真的很少发生的时候，这样可以省去了锁的开销，加大了系统的整个吞吐量。但如果经常产生冲突，上层应用会不断的进行retry，这样反倒是降低了性能，所以这种情况下用悲观锁就比较合适。
 
 
-[详细分析Java中断机制](http://www.infoq.com/cn/articles/java-interrupt-mechanism)
+[详细分析Java中断机制](http://www.infoq.com/cn/articles/java-interrupt-mechanism)  赞，好文
+
