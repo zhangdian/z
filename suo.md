@@ -21,3 +21,9 @@ InnoDB  共享锁（读）  排它锁（写）
 
 [详细分析Java中断机制](http://www.infoq.com/cn/articles/java-interrupt-mechanism)  赞，好文
 
+
+
+###参考资料
+* 《Java Concurrency in Practice》
+* 《Concurrent Programming in Java Design principles and patterns》
+
