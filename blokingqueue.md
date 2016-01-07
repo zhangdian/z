@@ -119,6 +119,24 @@ sync = fair ? new FairSync() : new NonfairSync();
 
 看源代码就可以知道，`lock()`不处理中断，`lockInterruptibly()`会处理中断。
 
+```
+两个方法会直接调用下述方法：
+
+public final void acquire(int arg) {
+    if (!tryAcquire(arg) &&
+        acquireQueued(addWaiter(Node.EXCLUSIVE), arg))
+        selfInterrupt();
+}
+
+public final void acquireInterruptibly(int arg)
+        throws InterruptedException {
+    if (Thread.interrupted())
+        throw new InterruptedException();
+    if (!tryAcquire(arg))
+        doAcquireInterruptibly(arg);
+}
+```
+
 注意，两个condition的好处是：这里一个读锁，一个写锁。`如果用一个锁，在唤醒的时候，被阻塞的读和写都会收到信号，不知道唤醒的是读，还是写`，如果唤醒的经常错了，又得重新唤醒。
 
 [JAVA 锁，讲的不错的一个个人博客](http://xiaobaoqiu.github.io/blog/2014/11/12/java-lock/)
