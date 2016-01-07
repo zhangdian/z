@@ -17,7 +17,7 @@ offer方法在添加元素时，如果发现队列已满无法添加的话，会
 
 ### boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException;
 
-
+等待指定时间
 
 ## 删除元素
 
