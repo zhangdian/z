@@ -116,3 +116,5 @@ sync = fair ? new FairSync() : new NonfairSync();
 首先，获取锁的方式不一样，`offer`使用的`lock`，`put`使用的`lockInterruptibly`，为什么呢？
 
 因为，put的原语中，如果队列中没有地方了，会进行等待，所以是`可中断的`。
+
+注意，两个condition的好处是：这里一个读锁，一个写锁。`如果用一个锁，在唤醒的时候，不知道唤醒的是读，还是写`。
