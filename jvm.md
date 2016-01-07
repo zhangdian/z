@@ -38,3 +38,5 @@ jstack [option] [server-id@]remote-hostname-or-ip
 ###PS:
 
  echo $((0xac))   16进制转10进制
+ 
+ printf "%x\n" 21742  10进制转16进制
