@@ -1,4 +1,4 @@
-# BlokingQueue
+# BlokingQueue 之 ArrayBlockingQueue
 
 
 ## 添加元素
@@ -44,3 +44,5 @@ fail参数最后传给`ReentrantLock`，它内部根据`fair`参数初始化了`
 ```
 sync = fair ? new FairSync() : new NonfairSync();
 ```
+
+内部使用数组存储元素`this.items = new Object[capacity];`
