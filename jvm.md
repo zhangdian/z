@@ -45,6 +45,19 @@ jstack里面的示例，很经典，很好的查找CPU利用很高的问题。
 ### jmap（Memory Map）
 一般结合jhat（Java Heap Analysis Tool）查看堆内存使用情况。
 
+####语法
+jmap -histo[:live] pid
+
+jmap -heap pid
+
+jmap -permstat pid
+
+一个很常用的情况是：用jmap把进程内存使用情况dump到文件中，再用jhat分析查看。jmap进行dump命令格式如下：
+
+jmap -dump:format=b,file=dumpFileName pid
+
+
+
 ###PS:
 
  echo $((0xac))   16进制转10进制
