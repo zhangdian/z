@@ -25,4 +25,6 @@ offer方法在添加元素时，如果发现队列已满无法添加的话，会
 
 ### E poll(long timeout, TimeUnit unit) throws InterruptedException;
 
+若队列为空，返回null。
+
 ### boolean remove(Object o);
