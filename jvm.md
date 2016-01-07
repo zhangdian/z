@@ -15,3 +15,14 @@ jps -v 输出传入JVM的参数
 
 ###jstack
 
+#### 语法
+jstack [option] pid
+
+jstack [option] executable core
+
+jstack [option] [server-id@]remote-hostname-or-ip
+
+#### 参数
+-l long listings，会打印出额外的锁信息，在发生死锁时可以用jstack -l pid来观察锁持有情况
+
+-m mixed mode，不仅会输出Java堆栈信息，还会输出C/C++堆栈信息（比如Native方法）
