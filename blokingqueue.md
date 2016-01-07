@@ -79,6 +79,26 @@ sync = fair ? new FairSync() : new NonfairSync();
             lock.unlock();
         }
     }
+    
+    public boolean offer(E e, long timeout, TimeUnit unit)
+        throws InterruptedException {
+
+        checkNotNull(e);
+        long nanos = unit.toNanos(timeout);
+        final ReentrantLock lock = this.lock;
+        lock.lockInterruptibly();
+        try {
+            while (count == items.length) {
+                if (nanos <= 0)
+                    return false;
+                nanos = notFull.awaitNanos(nanos);
+            }
+            enqueue(e);
+            return true;
+        } finally {
+            lock.unlock();
+        }
+    }
 ```
 
 首先，获取锁的方式不一样，`offer`使用的`lock`，`put`使用的`lockInterruptibly`，为什么呢？
