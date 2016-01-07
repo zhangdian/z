@@ -190,5 +190,7 @@ sync = fair ? new FairSync() : new NonfairSync();
 ```
 ReentrantLock默认是是用`非公平锁`的。
 
+`公平锁`通过调用`acquire(1)`来获取锁，具体机制后面讲；
 
+`非公平锁`直接尝试设置state获取锁，如果失败，走和`公平锁`一样的逻辑。
 
