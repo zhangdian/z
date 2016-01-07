@@ -13,3 +13,5 @@
 ### E take() throws InterruptedException;
 
 ### E poll(long timeout, TimeUnit unit) throws InterruptedException;
+
+### boolean remove(Object o);
