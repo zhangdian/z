@@ -61,9 +61,7 @@ jhat -port 9998 dumpFileName_path
 
 ###jstat
 
-
-
-<查看原文的图片>
+![原文的图片](http://7xpmu3.com1.z0.glb.clouddn.com/181847_dAR9_111708.jpg)
 
 jstat -gc 9943 250 4
 
