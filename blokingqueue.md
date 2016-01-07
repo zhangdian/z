@@ -188,7 +188,7 @@ sync = fair ? new FairSync() : new NonfairSync();
         }
     }
 ```
-ReentrantLock默认是是用非公平锁的。
+ReentrantLock默认是是用`非公平锁`的。
 
 
 
