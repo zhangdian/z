@@ -12,3 +12,6 @@ jstack: http://www.cnblogs.com/nexiyi/p/java_thread_jstack.html
 
 jps -v 输出传入JVM的参数
 
+
+###jstack
+
