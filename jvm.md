@@ -11,6 +11,8 @@ jstack: http://www.cnblogs.com/nexiyi/p/java_thread_jstack.html
 [jstack dump日志文件详解](http://gudaoqing.blog.51cto.com/7729345/1332829)
 
 
+## JVM自带工具
+
 
 下面对各个命令的解释，都是使用的这个文档：
 
@@ -75,3 +77,13 @@ jstat -gc 9943 250 4
  echo $((0xac))   16进制转10进制
  
  printf "%x\n" 21742  10进制转16进制
+ 
+ 
+## JVM GC
+
+[Java 内存区域和GC机制](http://www.cnblogs.com/zhguang/p/3257367.html)
+
+一些要注意的点：
+* 在Eden区，HotSpot虚拟机使用了两种技术来加快内存分配。分别是bump-the-pointer和TLAB（Thread-Local Allocation Buffers）
+* 年老代的空间一般比年轻代大，能存放更多的对象，在年老代上发生的GC次数也比年轻代少。当年老代内存不足时，将执行Major GC，也叫 `Full GC`。
+* GC机制被称为`Minor GC`或叫Young GC。注意，Minor GC并不代表年轻代内存不足，它事实上只表示在Eden区上的GC。
