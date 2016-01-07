@@ -56,7 +56,7 @@ jmap -permstat pid
 
 jmap -dump:format=b,file=dumpFileName pid
 
-
+jhat -port 9998 dumpFileName_path
 
 ###PS:
 
