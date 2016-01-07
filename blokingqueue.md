@@ -120,3 +120,75 @@ sync = fair ? new FairSync() : new NonfairSync();
 注意，两个condition的好处是：这里一个读锁，一个写锁。`如果用一个锁，在唤醒的时候，被阻塞的读和写都会收到信号，不知道唤醒的是读，还是写`，如果唤醒的经常错了，又得重新唤醒。
 
 [JAVA 锁，讲的不错的一个个人博客](http://xiaobaoqiu.github.io/blog/2014/11/12/java-lock/)
+
+
+## 公平锁(FairSync)和非公平锁(NonFairSync)
+
+首先上代码:
+
+```
+    public ReentrantLock() {
+        sync = new NonfairSync();
+    }
+
+    /**
+     * Sync object for non-fair locks
+     */
+    static final class NonfairSync extends Sync {
+        private static final long serialVersionUID = 7316153563782823691L;
+
+        /**
+         * Performs lock.  Try immediate barge, backing up to normal
+         * acquire on failure.
+         */
+        final void lock() {
+            if (compareAndSetState(0, 1))
+                setExclusiveOwnerThread(Thread.currentThread());
+            else
+                acquire(1);
+        }
+
+        protected final boolean tryAcquire(int acquires) {
+            return nonfairTryAcquire(acquires);
+        }
+    }
+    
+    /**
+     * Sync object for fair locks
+     */
+    static final class FairSync extends Sync {
+        private static final long serialVersionUID = -3000897897090466540L;
+
+        final void lock() {
+            acquire(1);
+        }
+
+        /**
+         * Fair version of tryAcquire.  Don't grant access unless
+         * recursive call or no waiters or is first.
+         */
+        protected final boolean tryAcquire(int acquires) {
+            final Thread current = Thread.currentThread();
+            int c = getState();
+            if (c == 0) {
+                if (!hasQueuedPredecessors() &&
+                    compareAndSetState(0, acquires)) {
+                    setExclusiveOwnerThread(current);
+                    return true;
+                }
+            }
+            else if (current == getExclusiveOwnerThread()) {
+                int nextc = c + acquires;
+                if (nextc < 0)
+                    throw new Error("Maximum lock count exceeded");
+                setState(nextc);
+                return true;
+            }
+            return false;
+        }
+    }
+```
+ReentrantLock默认是是用非公平锁的。
+
+
+
