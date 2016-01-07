@@ -10,6 +10,10 @@ jstack: http://www.cnblogs.com/nexiyi/p/java_thread_jstack.html
 
 [jstack dump日志文件详解](http://gudaoqing.blog.51cto.com/7729345/1332829)
 
+
+
+下面对各个命令的解释，都是使用的这个文档：
+
 [JVM性能调优监控工具jps、jstack、jmap、jhat、jstat、hprof使用详解](http://my.oschina.net/feichexia/blog/196575?fromerr=1uGPAVF3)
 
 ###jps
@@ -31,7 +35,7 @@ jstack [option] [server-id@]remote-hostname-or-ip
 
 -m mixed mode，不仅会输出Java堆栈信息，还会输出C/C++堆栈信息（比如Native方法）
 
-
+jstack里面的示例，很经典，很好的查找CPU利用很高的问题。
 
 
 
