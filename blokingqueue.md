@@ -15,6 +15,8 @@
 
 ### boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException;
 
+offer方法在添加元素时，如果发现队列已满无法添加的话，会直接返回false。
+
 ## 删除元素
 
 ### E take() throws InterruptedException;
