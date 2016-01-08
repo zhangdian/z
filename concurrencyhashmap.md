@@ -55,3 +55,5 @@ HashTable容器使用`synchronized`（他的get和put方法的实现代码如下
 
 
 [Java transient关键字](http://www.blogjava.net/fhtdy2004/archive/2009/06/20/286112.html)
+
+[JAVA7 ConcurrentHashMap解析](http://qifuguang.me/2015/09/10/[Java%E5%B9%B6%E5%8F%91%E5%8C%85%E5%AD%A6%E4%B9%A0%E5%85%AB]%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90ConcurrentHashMap/)
