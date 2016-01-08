@@ -42,7 +42,7 @@ Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang\Thr
 
 ## 同步方法
 
-Thread里面，涉及到线程状态的操作，比如`join start interrupt`等方法，也是使用`synchronized`来实现的。
+Thread里面，涉及到线程状态的操作，比如`join start interrupt`等方法，包括线程序号的递增等，也是使用`synchronized`来实现的。
 
 
 ## 参考
