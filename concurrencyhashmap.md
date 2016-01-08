@@ -30,6 +30,10 @@
 
 看不懂！！
 
+## 实现原理
+
+ConcurrentHashMap使用分段锁技术
+
 
 ## HashTable
 
