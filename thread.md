@@ -12,7 +12,7 @@ Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang\Thr
 
 ## join
 
-最后的else里面的逻辑，为什么要这么实现?
+最后的else里面的逻辑，为什么要这么实现? 因为毫秒级别, 怕不精确?
 
 ```
     public final synchronized void join(long millis) throws InterruptedException {
