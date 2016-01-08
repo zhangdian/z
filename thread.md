@@ -8,6 +8,7 @@ Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang\Thr
 
 [openJDK1.7源代码](http://7xpmu3.com1.z0.glb.clouddn.com/openjdk-7-fcs-src-b147-27_jun_2011.zip)
 
+这一块太深奥了，要回顾下c++代码
 
 ## 参考
 
