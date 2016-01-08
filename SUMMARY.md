@@ -34,7 +34,7 @@
 * Linux
    * [监控](jian_kong.md)
 * [Eclipse](eclipse.md)
-* [jvm](jvm.md)
+* [JVM](jvm.md)
 * [锁](suo.md)
 * [BlokingQueue](blokingqueue.md)
 * [ConcurrencyHashMap](concurrencyhashmap.md)
