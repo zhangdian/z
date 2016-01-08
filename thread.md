@@ -4,7 +4,7 @@
 
 ## 查看JNI代码（c、c++代码）
 
-Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang` 里面
+Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang\Thread.c` 里面
 
 [openJDK1.7源代码](http://7xpmu3.com1.z0.glb.clouddn.com/openjdk-7-fcs-src-b147-27_jun_2011.zip)
 
