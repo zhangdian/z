@@ -27,7 +27,7 @@ InnoDB  共享锁（读）  排它锁（写）
 可重入的意思是某一个线程是否可多次获得一个锁，比如`synchronized`就是可重入的，`ReentrantLock`也是可重入的 
 
 
-###参考资料
+##参考资料
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
 
