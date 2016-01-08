@@ -32,4 +32,7 @@
 
 
 
+多线程相关包，最底层都调用了`sun.misc.Unsafe`包里面的方法
+
+
 [Java transient关键字](http://www.blogjava.net/fhtdy2004/archive/2009/06/20/286112.html)
