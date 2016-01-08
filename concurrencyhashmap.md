@@ -1,6 +1,6 @@
 # ConcurrentHashMap
 
-### hash方法
+## hash方法
 
 在对传入的key做hash的时候，是用的以下方法：
 
@@ -30,6 +30,13 @@
 
 看不懂！！
 
+
+## HashTable
+
+HashTable容器使用synchronized（他的get和put方法的实现代码如下）来保证线程安全
+
+
+## 其他
 
 
 多线程相关包，最底层都调用了`sun.misc.Unsafe`包里面的方法
