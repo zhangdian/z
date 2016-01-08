@@ -33,7 +33,7 @@
 
 ## HashTable
 
-HashTable容器使用synchronized（他的get和put方法的实现代码如下）来保证线程安全
+HashTable容器使用`synchronized`（他的get和put方法的实现代码如下）来保证线程安全
 
 
 ## 其他
