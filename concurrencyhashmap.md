@@ -29,3 +29,7 @@
 ```
 
 看不懂！！
+
+
+
+[Java transient关键字](http://www.blogjava.net/fhtdy2004/archive/2009/06/20/286112.html)
