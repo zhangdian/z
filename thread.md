@@ -10,6 +10,37 @@ Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang\Thr
 
 这一块太深奥了，要回顾下c++代码
 
+## join
+
+```
+    public final synchronized void join(long millis)
+    throws InterruptedException {
+        long base = System.currentTimeMillis();
+        long now = 0;
+
+        if (millis < 0) {
+            throw new IllegalArgumentException("timeout value is negative");
+        }
+
+        if (millis == 0) {
+            while (isAlive()) {
+                wait(0);
+            }
+        } else {
+            while (isAlive()) {
+                long delay = millis - now;
+                if (delay <= 0) {
+                    break;
+                }
+                wait(delay);
+                now = System.currentTimeMillis() - base;
+            }
+        }
+    }
+```
+
+
+
 ## 参考
 
 [java native](http://stackoverflow.com/questions/6101311/what-is-the-native-keyword-in-java-for)
