@@ -59,3 +59,5 @@ HashTable容器使用`synchronized`（他的get和put方法的实现代码如下
 [JAVA7 ConcurrentHashMap解析](http://qifuguang.me/2015/09/10/[Java%E5%B9%B6%E5%8F%91%E5%8C%85%E5%AD%A6%E4%B9%A0%E5%85%AB]%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90ConcurrentHashMap/)
 
 [Java集合---ConcurrentHashMap原理分析(JAVA5)](http://www.cnblogs.com/ITtangtang/p/3948786.html)
+
+[JAVA8 ConcurrentHashMap新特性](http://ashkrit.blogspot.com/2014/12/what-is-new-in-java8-concurrenthashmap.html)
