@@ -13,8 +13,7 @@ Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang\Thr
 ## join
 
 ```
-    public final synchronized void join(long millis)
-    throws InterruptedException {
+    public final synchronized void join(long millis) throws InterruptedException {
         long base = System.currentTimeMillis();
         long now = 0;
 
