@@ -22,6 +22,10 @@ InnoDB  共享锁（读）  排它锁（写）
 [详细分析Java中断机制](http://www.infoq.com/cn/articles/java-interrupt-mechanism)  赞，好文
 
 
+## 可重入性
+
+可重入的意思是某一个线程是否可多次获得一个锁，比如`synchronized`就是可重入的，`ReentrantLock`也是可重入的 
+
 
 ###参考资料
 * 《Java Concurrency in Practice》
