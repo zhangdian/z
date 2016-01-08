@@ -32,7 +32,7 @@
 
 ## 实现原理
 
-ConcurrentHashMap使用分段锁技术
+ConcurrentHashMap使用`分段锁`技术
 
 
 ## HashTable
