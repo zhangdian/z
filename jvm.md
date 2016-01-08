@@ -72,6 +72,10 @@ jstat -gc 9943 250 4
 [JVM参数大全](http://www.cnblogs.com/edwardlauxh/archive/2010/04/25/1918603.html)
 
 
+```
+java -XX:+PrintFlagsFinal 查看jvm的默认参数
+```
+
 ###PS:
 
  echo $((0xac))   16进制转10进制
