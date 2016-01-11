@@ -37,6 +37,7 @@ InnoDB  共享锁（读）  排它锁（写）
 
 ## Lock
 
+Lock提供了`无条件的、可轮询的、定时的、可中断`的锁获取操作，所有加锁和解锁方法都是显式的。
 
 ##参考资料
 * 《Java Concurrency in Practice》
