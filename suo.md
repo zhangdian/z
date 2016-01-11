@@ -19,6 +19,8 @@ http://docs.oracle.com/javaee/6/tutorial/doc/gkjiu.html
 ![JAVA锁](http://7xpmu3.com1.z0.glb.clouddn.com/java_lock_mode.png)
 
 
+## MySQL锁
+
 [mysql事务和锁InnoDB](http://www.cnblogs.com/zhaoyl/p/4121010.html)
 
 InnoDB  共享锁（读）  排它锁（写）
