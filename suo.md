@@ -67,6 +67,10 @@ http://blog.takipi.com/java-8-stampedlocks-vs-readwritelocks-and-synchronized/
 
 不是可重入的。
 
+## 各种锁机制的对比
+
+http://winterbe.com/posts/2015/04/30/java8-concurrency-tutorial-synchronized-locks-examples/
+
 ##参考资料
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
