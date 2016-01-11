@@ -57,6 +57,10 @@ Lock的实现必须提供具有`与内部加锁相同的内存可见性语义`�
 
 同一时刻，可以有`多个读者`，或者只能有`一个写者`。
 
+读写锁的设计是用来进行性能改进的，使得特定情况下能够有更好的并发现。
+
+在实践中，当多处理器系统中，频繁的访问主要为`读取数据`的时候，读写锁能够改进性能。
+
 ##参考资料
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
