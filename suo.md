@@ -63,6 +63,8 @@ Lock的实现必须提供具有`与内部加锁相同的内存可见性语义`�
 
 ## StampedLock（JAVA8）
 
+http://blog.takipi.com/java-8-stampedlocks-vs-readwritelocks-and-synchronized/
+
 不是可重入的。
 
 ##参考资料
