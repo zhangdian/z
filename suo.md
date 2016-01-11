@@ -11,6 +11,12 @@ Lock 乐观锁 乐观锁实现的机制就是CAS操作（Compare and Swap）
 [Optimistic or pessimistic locking - Which one should you pick?](http://blog.couchbase.com/optimistic-or-pessimistic-locking-which-one-should-you-pick)
 
 
+
+## JAVA 锁
+
+![JAVA锁](http://7xpmu3.com1.z0.glb.clouddn.com/java_lock_mode.png)
+
+
 [mysql事务和锁InnoDB](http://www.cnblogs.com/zhaoyl/p/4121010.html)
 
 InnoDB  共享锁（读）  排它锁（写）
