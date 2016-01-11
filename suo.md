@@ -61,6 +61,8 @@ Lock的实现必须提供具有`与内部加锁相同的内存可见性语义`�
 
 在实践中，当多处理器系统中，频繁的访问主要为`读取数据`的时候，读写锁能够改进性能。其他情况下，`性能要比独占锁差一点`。
 
+## StampedLock（JAVA8）
+
 ##参考资料
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
