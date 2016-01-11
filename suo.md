@@ -55,6 +55,8 @@ Lock的实现必须提供具有`与内部加锁相同的内存可见性语义`�
 
 ## 读写锁 ReentrantReadWriteLock
 
+同一时刻，可以有`多个读者`，或者只能有`一个写者`。
+
 ##参考资料
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
