@@ -14,6 +14,8 @@ Lock 乐观锁 乐观锁实现的机制就是CAS操作（Compare and Swap）
 
 ## JAVA 锁
 
+http://docs.oracle.com/javaee/6/tutorial/doc/gkjiu.html
+
 ![JAVA锁](http://7xpmu3.com1.z0.glb.clouddn.com/java_lock_mode.png)
 
 
