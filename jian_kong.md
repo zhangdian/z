@@ -22,4 +22,4 @@ pidstat -w -I -p 9351 5
 ![三次握手和四次握手](/images/pidstat.png)
 
 隔离竞争锁： `Oracle Solaris Studio Performance Analyzer(Linux)`  一个很好的隔离和报告JAVA锁竞争的工具    
-windows上的类似工具是Intel VTune和AMD CodeAnalyst
+windows上的类似工具是`Intel VTune`和`AMD CodeAnalyst`
