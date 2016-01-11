@@ -51,6 +51,8 @@ Lock的实现必须提供具有`与内部加锁相同的内存可见性语义`�
 
 ![非公平锁由于公平锁原因](http://7xpmu3.com1.z0.glb.clouddn.com/%E9%9D%9E%E5%85%AC%E5%B9%B3%E9%94%81%E7%94%B1%E4%BA%8E%E5%85%AC%E5%B9%B3%E9%94%81%E5%8E%9F%E5%9B%A0.png)
 
+![](http://7xpmu3.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720160111140143.png)
+
 ##参考资料
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
