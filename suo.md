@@ -45,7 +45,7 @@ Lock的实现必须提供具有`与内部加锁相同的内存可见性语义`�
 
 在内部锁不能满足使用时，ReentrantLock才被作为更高级的工具，当你需要以下高级特性时，才应使用：`可定时的、可轮询的、可中断的锁获取操作、公平队列、非块结构的锁`。否则，请使用synchronized。
 
-未来的性能改进可能更倾向于synchroinzed，而不是ReentrantLock。因为synchroinzed是内置于JVM的，它能够进行优化，
+未来的性能改进可能更倾向于synchroinzed，而不是ReentrantLock。因为synchroinzed是内置于JVM的，它能够进行优化；使用基于类库的锁来实现这些看起来可能性不大。除非你的平台对ReentrantLock的可伸缩性有切实的需要，否则就性能的原因选择ReentrantLock而不是synchronized是不正确的。
 
 ### 公平锁 vs 非公平锁
 
