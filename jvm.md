@@ -114,8 +114,7 @@ GC机制的基本算法是：`分代收集`，这个不用赘述。下面阐述�
     
     
 永久代的回收并`不是必须的`，可以通过参数来设置是否对类进行回收。HotSpot提供-Xnoclassgc进行控制。使用-verbose，-XX:+TraceClassLoading、-XX:+TraceClassUnLoading可以查看类加载和卸载信息
-     -verbose、-XX:+TraceClassLoading可以在Product版HotSpot中使用；
-     -XX:+TraceClassUnLoading需要fastdebug版HotSpot支持
+-verbose、-XX:+TraceClassLoading可以在Product版HotSpot中使用；-XX:+TraceClassUnLoading需要fastdebug版HotSpot支持
 
 
 一些要注意的点：
