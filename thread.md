@@ -1,7 +1,6 @@
 # Thread
 
 
-
 ## 查看JNI代码（c、c++代码）
 
 Thread类中的本地方法申明在 `openjdk\jdk\src\share\native\java\lang\Thread.c` 里面
