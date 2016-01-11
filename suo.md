@@ -39,6 +39,8 @@ InnoDB  共享锁（读）  排它锁（写）
 
 Lock提供了`无条件的、可轮询的、定时的、可中断`的锁获取操作，所有加锁和解锁方法都是显式的。
 
+Lock的实现必须提供具有与内部加锁相同的内存可见性语义。但是加锁的语义，调度算法，顺序保证，性能特性都可以不同。
+
 ##参考资料
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
