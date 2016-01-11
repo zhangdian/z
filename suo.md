@@ -45,4 +45,4 @@ Lock的实现必须提供具有`与内部加锁相同的内存可见性语义`�
 * 《Java Concurrency in Practice》
 * 《Concurrent Programming in Java Design principles and patterns》
 * [详细分析Java中断机制](http://www.infoq.com/cn/articles/java-interrupt-mechanism)  赞，好文
-
+* [FindBugs](http://findbugs.sourceforge.net/)
