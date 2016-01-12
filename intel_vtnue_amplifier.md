@@ -32,3 +32,6 @@ The Thread Concurrency Histogram represents the Elapsed time and concurrency lev
 Note the `Target` value. `By default, this number is equal to the number of physical cores`. Consider this number as your optimization goal.
 
 The `Average metric` is calculated as `CPU time / Elapsed time`. Use this number as a baseline for your performance measurements. `The closer this number to the number of cores, the better`.
+
+
+大致知道怎么用，但是不熟，要多实践，多试试。
