@@ -39,4 +39,5 @@
 * [BlokingQueue](blokingqueue.md)
 * [ConcurrencyHashMap](concurrencyhashmap.md)
 * [Thread](thread.md)
+* Intel VTnue Amplifier
 
