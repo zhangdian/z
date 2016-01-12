@@ -2,6 +2,8 @@
 
 ## 安装配置
 
+[安装文件和license](http://7xpmu3.com1.z0.glb.clouddn.com/Vtune.rar)
+
 
 
 ## Locks and wait
