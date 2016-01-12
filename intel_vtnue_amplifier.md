@@ -4,6 +4,7 @@
 
 [安装文件和license](http://7xpmu3.com1.z0.glb.clouddn.com/Vtune.rar)
 
+[配置支持JAVA源码](https://software.intel.com/en-us/articles/java-support-is-back-in-vtune-amplifier-xe)
 
 ## Locks and wait
 
