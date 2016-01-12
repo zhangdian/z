@@ -6,7 +6,7 @@
 
 ## 支持JAVA源码
 
-[配置支持JAVA源码](https://software.intel.com/en-us/articles/java-support-is-back-in-vtune-amplifier-xe)
+[配置支持JAVA源码！！！](https://software.intel.com/en-us/articles/java-support-is-back-in-vtune-amplifier-xe)
 
 总的来说，思路是：
 
