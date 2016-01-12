@@ -12,3 +12,6 @@
 
 The Thread Concurrency Histogram represents the Elapsed time and concurrency level for the specified number of running threads. Ideally, `the highest bar of your chart should be within the Ok or Ideal utilization range`.
 
+Note the `Target` value. `By default, this number is equal to the number of physical cores`. Consider this number as your optimization goal.
+
+The `Average metric` is calculated as `CPU time / Elapsed time`. Use this number as a baseline for your performance measurements. `The closer this number to the number of cores, the better`.
