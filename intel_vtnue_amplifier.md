@@ -1,12 +1,13 @@
-# Intel VTnue Amplifier
+# Intel VTnue Amplifier（Windows）
 
 ## 安装配置
 
 [安装文件和license](http://7xpmu3.com1.z0.glb.clouddn.com/Vtune.rar)
 
 
-
 ## Locks and wait
+
+安装好之后，在安装目录可以看到文档
 
 ### Summary
 
