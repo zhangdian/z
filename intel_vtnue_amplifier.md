@@ -4,7 +4,16 @@
 
 [安装文件和license](http://7xpmu3.com1.z0.glb.clouddn.com/Vtune.rar)
 
+## 支持JAVA源码
+
 [配置支持JAVA源码](https://software.intel.com/en-us/articles/java-support-is-back-in-vtune-amplifier-xe)
+
+总的来说，思路是：
+
+1. 新建一个`bat`文件，在该文件中，调用`main`函数执行
+2. 在Intel VTnue的项目属性中，`Application`一栏选择对应的bat文件，执行即可
+
+
 
 ## Locks and wait
 
