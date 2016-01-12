@@ -1,5 +1,9 @@
 # Intel VTnue Amplifier
 
+## 安装配置
+
+
+
 ## Locks and wait
 
 ### Summary
