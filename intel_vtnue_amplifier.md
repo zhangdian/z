@@ -13,7 +13,7 @@
 1. 新建一个`bat`文件，在该文件中，调用`main`函数执行
 2. 在Intel VTnue的项目属性中，`Application`一栏选择对应的bat文件，执行即可
 
-
+![](http://7xpmu3.com1.z0.glb.clouddn.com/java_vtune_amplifier.jpg)
 
 ## Locks and wait
 
