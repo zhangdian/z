@@ -26,4 +26,6 @@ windows上的类似工具是`Intel VTune`和`AMD CodeAnalyst`
 
 ## 内存监控
 
-vmstat
+用vmstat监控页面交换
+
+* si和so，分别表示内存页面换入和换出的量
