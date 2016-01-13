@@ -2,6 +2,8 @@
 
 [MySQL索引背后的数据结构及算法原理](http://blog.jobbole.com/24006/#rd?sukey=c65e39fee5582111f38892d43cba7aeaf9ebe51e6f9f7b4909053af203d7cc8744c963a8745f4519f7f89b011e568c53)
 
+[MySQL存储引擎MyISAM与InnoDB的优劣](https://www.pureweber.com/article/myisam-vs-innodb/)
+
 讲的内容基本就是`高性能MySQL`里面的内容。
 
 
