@@ -40,7 +40,7 @@
 
 |  | 增 | 删 | 改 | 查 |
 | -- | -- | -- | -- | -- |
-| InnoDB | 插入主键+数据到BTree | 一次BTree存查找，数据删除 | 一次BTree查找，数据更新 | 做一次BTree查找 |
+| InnoDB | 插入主键+数据到BTree | 一次BTree查找，数据删除 | 一次BTree查找，数据更新 | 做一次BTree查找 |
 | MyISAM | 写数据，插入主键到BTree种 | 一次BTree查找，一次内存寻址，数据删除 | 一次BTree查找，一次内存寻址，数据更新 | 进行一次BTree查找，一次内存寻址 |
 | 备注 | BTree在插入过程中，会涉及到分页，分页就涉及到数据移动，InnoDB会有更多的数据移动 | InnoDB更快  | InnoDB更快 | InnoDB更快 |
 
