@@ -41,5 +41,5 @@
 * [Thread](thread.md)
 * [Intel VTnue Amplifier](intel_vtnue_amplifier.md)
 * [hashmap](hashmap.md)
-* 禅道
+* [禅道](shan_dao.md)
 
