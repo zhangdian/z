@@ -42,5 +42,5 @@
 * [Intel VTnue Amplifier](intel_vtnue_amplifier.md)
 * [hashmap](hashmap.md)
 * [禅道](shan_dao.md)
-* MySQL索引
+* [MySQL索引](mysqlsuo_yin.md)
 
