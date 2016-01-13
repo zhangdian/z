@@ -29,3 +29,16 @@ pidstat -w -I -p 9351 5
 windows上的类似工具是`Intel VTune`和`AMD CodeAnalyst`
 
 
+## 监控抢占式上下文监控
+
+Linux使用`pidstat -w`监控抢占式上下文监控。
+
+```
+cswch/s
+     Total  number  of  voluntary  context  switches  the task made per second.  A voluntary context switch occurs when a task blocks
+     because it requires a resource that is unavailable.
+
+nvcswch/s
+     Total number of non voluntary context switches the task made per second.  A involuntary context switch takes place when  a  task
+     executes for the duration of its time slice and then is forced to relinquish the processor.
+```
