@@ -43,5 +43,5 @@
 * [hashmap](hashmap.md)
 * [禅道](shan_dao.md)
 * [MySQL索引](mysqlsuo_yin.md)
-* 架构
+* [架构](jia_gou.md)
 
