@@ -73,6 +73,8 @@ String是所有语言中最常用的一个类。我们知道在Java中，String�
 
 实例方法被覆盖，静态方法被隐藏
 
+[java里的变量隐藏、方法覆盖、方法隐藏](http://justt0.iteye.com/blog/1944357)
+
 ### 构造函数相关
 
 [Java构造时成员初始化的陷阱](http://coolshell.cn/articles/1106.html)
