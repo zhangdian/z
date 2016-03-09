@@ -68,3 +68,7 @@ class AlarmDoor extends Door implements Alarm {
 String是所有语言中最常用的一个类。我们知道在Java中，String是不可变的、final的。Java在运行时也保存了一个字符串池(String pool)，这使得String成为了一个特别的类。
 
 [为什么String类是不可变的](http://www.importnew.com/7440.html)
+
+### 变量的隐藏和覆盖
+
+实例方法被覆盖，静态方法被隐藏
