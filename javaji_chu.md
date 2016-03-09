@@ -56,6 +56,8 @@ class AlarmDoor extends Door implements Alarm {
 
 [关键字final](http://www.cnblogs.com/chenssy/p/3428180.html)
 
+[深入理解Java中的final关键字](http://www.importnew.com/7553.html)
+
 下面总结了一些使用final关键字的好处：
 * final关键字提高了性能。JVM和Java应用都会缓存final变量。
 * final变量可以安全的在多线程环境下进行共享，而不需要额外的同步开销。
