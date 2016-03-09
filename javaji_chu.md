@@ -62,3 +62,9 @@ class AlarmDoor extends Door implements Alarm {
 * final关键字提高了性能。JVM和Java应用都会缓存final变量。
 * final变量可以安全的在多线程环境下进行共享，而不需要额外的同步开销。
 * 使用final关键字，JVM会对方法、变量及类进行优化。
+
+### String类
+
+String是所有语言中最常用的一个类。我们知道在Java中，String是不可变的、final的。Java在运行时也保存了一个字符串池(String pool)，这使得String成为了一个特别的类。
+
+[为什么String类是不可变的](http://www.importnew.com/7440.html)
