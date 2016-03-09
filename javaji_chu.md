@@ -118,3 +118,6 @@ Java要求一个对象被初始化之前，其超类也必须被初始化，这�
 ### 线程安全的单例
 
 完美的解决方案：[如何正确地写出单例模式](http://wuchong.me/blog/2014/08/28/how-to-correctly-write-singleton-pattern/)
+
+
+### 异常相关
