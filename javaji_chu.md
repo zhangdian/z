@@ -113,3 +113,9 @@ Java要求一个对象被初始化之前，其超类也必须被初始化，这�
 * 2.case后的语句可以不用大括号. 
 * 3.switch语句的判断条件可以接受int,byte,char,short,不能接受其他类型. 
 * 4.`一旦case匹配,就会顺序执行后面的程序代码,而不管后面的case是否匹配,直到遇见break`,利用这一特性可以让好几个case执行统一语句. 
+
+
+### 线程安全的单例
+
+完美的解决方案：
+[如何正确地写出单例模式](http://wuchong.me/blog/2014/08/28/how-to-correctly-write-singleton-pattern/)
