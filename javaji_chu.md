@@ -52,5 +52,6 @@ class AlarmDoor extends Door implements Alarm {
   
 ### final
 
-效率、设计；数据、方法、类。
+效率、设计；数据、方法、类、参数。
 
+[关键字final](http://www.cnblogs.com/chenssy/p/3428180.html)
