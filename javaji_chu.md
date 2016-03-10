@@ -122,6 +122,8 @@ Java要求一个对象被初始化之前，其超类也必须被初始化，这�
 
 ### 异常相关
 
+[Java异常处理和设计](http://www.cnblogs.com/dolphin0520/p/3769804.html)
+
 ![异常结构图](http://7xpmu3.com1.z0.glb.clouddn.com/JAVA_EXCEPTION.jpg)
 
 对于`非运行时异常`如果不进行捕获或者抛出声明处理，或者在try-catch中声明了但是try中没有可能抛出相关异常的，编译都不会通过。
