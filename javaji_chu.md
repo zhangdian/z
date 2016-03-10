@@ -128,6 +128,8 @@ Java要求一个对象被初始化之前，其超类也必须被初始化，这�
 
 但是在try-catch中，如果声明了Exception，而且try中也没有可能抛出相关异常，编译可以通过。
 
+#### try&catch&finally
+
 三个块执行的顺序为try—>catch—>finally。
 
 当然如果没有发生异常，则catch块不会执行。但是finally块无论在什么情况下都是会执行的（这点要非常注意，因此部分情况下，都会将释放资源的操作放在finally块中进行）。
