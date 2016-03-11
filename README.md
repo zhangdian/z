@@ -13,6 +13,8 @@ Bd17kaka's Book
 
 [Java 8 Tutorial](http://winterbe.com/posts/2014/03/16/java-8-tutorial/)
 
+[highscalability](http://highscalability.com/)
+
 ## 常用工具
 
 visualVM：观察JVM
