@@ -46,5 +46,5 @@
 * [架构](jia_gou.md)
 * [前端](qian_duan.md)
 * [JAVA基础](javaji_chu.md)
-* Redis
+* [Redis](redis.md)
 
