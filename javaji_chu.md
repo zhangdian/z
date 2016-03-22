@@ -140,7 +140,7 @@ Java要求一个对象被初始化之前，其超类也必须被初始化，这�
 
 [深入理解Java内存模型（三）——锁](http://www.infoq.com/cn/articles/java-memory-model-5/)
 
-[深入理解Java内存模型（三）——重排序](http://www.infoq.com/cn/articles/java-memory-model-6/)
+[深入理解Java内存模型（三）——final](http://www.infoq.com/cn/articles/java-memory-model-6/)
 
 [深入理解Java内存模型（三）——重排序](http://www.infoq.com/cn/articles/java-memory-model-7/)
 
