@@ -65,7 +65,18 @@ class AlarmDoor extends Door implements Alarm {
 
 ### String类
 
+[String Interning研究](http://blog.csdn.net/biaobiaoqi/article/details/6892352)
+
 String是所有语言中最常用的一个类。我们知道在Java中，String是不可变的、final的。Java在运行时也保存了一个字符串池(String pool)，这使得String成为了一个特别的类。
+
+```
+String str = new String("abc");
+```
+这里确实是有两个 String 对象生成了。
+
+new String("xxx") 创建的 String 对象会在 heap 中重新生成新的 String 对象，绕过字符串池的管辖。而如果使用String str = "xxx"则先查看字符串池 是否已经存在，存在则直接返回 PermGen 中的该 String 对象，否则生成新的 String 对象，并将它加入字符串池中。
+
+尽量使用`String str = "abc";`，而不是`String str = new String("abc")`；
 
 [为什么String类是不可变的](http://www.importnew.com/7440.html)
 
