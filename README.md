@@ -15,6 +15,14 @@ Bd17kaka's Book
 
 [highscalability](http://highscalability.com/)
 
+[搜索技术博客－淘宝](http://www.searchtb.com/)
+
+[阿里核心系统团队博客](http://csrd.aliapp.com/)
+
+[阿里中间件团队博客](http://jm.taobao.org/)
+
+[关注NoSQL](http://blog.nosqlfan.com/)
+
 ## 常用工具
 
 visualVM：观察JVM
