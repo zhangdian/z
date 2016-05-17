@@ -80,5 +80,5 @@
    * [2013-06-14-java-schedule-task](2013-06-14-java-schedule-task.md)
    * [2013-06-25-html-page-refresh](2013-06-25-html-page-refresh.md)
    * [2013-06-25-java-deep-copy](2013-06-25-java-deep-copy.md)
-   * 2013-06-25-learning-shell
+   * [2013-06-25-learning-shell](2013-06-25-learning-shell.md)
 
