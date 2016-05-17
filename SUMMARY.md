@@ -52,4 +52,5 @@
 * Blog
    * [2012-11-20-setup-octopress](2012-11-20-setup-octopress.md)
    * [2012-11-21-git-operation-with-octopress](2012-11-21-git-operation-with-octopress.md)
+   * 2012-11-21-setup-octopress-on-ubuntu
 
