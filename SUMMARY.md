@@ -50,4 +50,5 @@
    * Blog
 * [Redis](redis.md)
 * Blog
+   * 2012-11-20-setup-octopress
 
