@@ -72,5 +72,5 @@
    * [2013-03-27-rabbitmq](2013-03-27-rabbitmq.md)
    * [2013-04-05-email-from-name-reputation](2013-04-05-email-from-name-reputation.md)
    * [2013-04-07-email-authentation](2013-04-07-email-authentation.md)
-   * 2013-04-08-what-is-email-reputation
+   * [2013-04-08-what-is-email-reputation](2013-04-08-what-is-email-reputation.md)
 
