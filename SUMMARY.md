@@ -62,5 +62,5 @@
    * [2012-12-07-js-basic-concept-with-example](2012-12-07-js-basic-concept-with-example.md)
    * [2012-12-11-a-sql-question](2012-12-11-a-sql-question.md)
    * [2012-12-11-java-spring-some-best-practices](2012-12-11-java-spring-some-best-practices.md)
-   * 2012-12-11-js-code-conventions
+   * [2012-12-11-js-code-conventions](2012-12-11-js-code-conventions.md)
 
