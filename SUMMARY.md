@@ -65,4 +65,5 @@
    * [2012-12-11-js-code-conventions](2012-12-11-js-code-conventions.md)
    * [2012-12-12-add-setup-vpn-server-and-client](2012-12-12-add-setup-vpn-server-and-client.md)
    * [2012-12-13-redis-docs](2012-12-13-redis-docs.md)
+   * 2013-01-07-solve-the-problem-of-bad-file-number-where-ssh-on-port-22
 
