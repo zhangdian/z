@@ -55,5 +55,5 @@
    * [2012-11-21-setup-octopress-on-ubuntu](2012-11-21-setup-octopress-on-ubuntu.md)
    * [2012-11-23-setup-dropbox-on-ubuntu](2012-11-23-setup-dropbox-on-ubuntu.md)
    * [2012-11-27-git-config](2012-11-27-git-config.md)
-   * 2012-11-29-octopress-sharing-code-snippets
+   * [2012-11-29-octopress-sharing-code-snippets](2012-11-29-octopress-sharing-code-snippets.md)
 
