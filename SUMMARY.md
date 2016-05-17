@@ -59,5 +59,5 @@
    * [2012-11-29-setup-custom-octopress](2012-11-29-setup-custom-octopress.md)
    * [2012-12-04-ctex](2012-12-04-ctex.md)
    * [2012-12-06-freemind-docs](2012-12-06-freemind-docs.md)
-   * 2012-12-07-js-basic-concept-with-example
+   * [2012-12-07-js-basic-concept-with-example](2012-12-07-js-basic-concept-with-example.md)
 
