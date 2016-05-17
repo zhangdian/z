@@ -58,4 +58,5 @@
    * [2012-11-29-octopress-sharing-code-snippets](2012-11-29-octopress-sharing-code-snippets.md)
    * [2012-11-29-setup-custom-octopress](2012-11-29-setup-custom-octopress.md)
    * [2012-12-04-ctex](2012-12-04-ctex.md)
+   * 2012-12-06-freemind-docs
 
