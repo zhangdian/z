@@ -63,5 +63,5 @@
    * [2012-12-11-a-sql-question](2012-12-11-a-sql-question.md)
    * [2012-12-11-java-spring-some-best-practices](2012-12-11-java-spring-some-best-practices.md)
    * [2012-12-11-js-code-conventions](2012-12-11-js-code-conventions.md)
-   * 2012-12-12-add-setup-vpn-server-and-client
+   * [2012-12-12-add-setup-vpn-server-and-client](2012-12-12-add-setup-vpn-server-and-client.md)
 
