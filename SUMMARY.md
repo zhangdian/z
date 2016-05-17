@@ -57,5 +57,5 @@
    * [2012-11-27-git-config](2012-11-27-git-config.md)
    * [2012-11-29-octopress-sharing-code-snippets](2012-11-29-octopress-sharing-code-snippets.md)
    * [2012-11-29-setup-custom-octopress](2012-11-29-setup-custom-octopress.md)
-   * 2012-12-04-ctex
+   * [2012-12-04-ctex](2012-12-04-ctex.md)
 
