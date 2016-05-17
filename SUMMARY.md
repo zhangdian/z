@@ -69,4 +69,5 @@
    * [2013-01-08-redis-replication-in-practice](2013-01-08-redis-replication-in-practice.md)
    * [2013-03-27-java-class-loader](2013-03-27-java-class-loader.md)
    * [2013-03-27-java-shared-class](2013-03-27-java-shared-class.md)
+   * 2013-03-27-rabbitmq
 
