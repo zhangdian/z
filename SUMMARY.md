@@ -67,4 +67,5 @@
    * [2012-12-13-redis-docs](2012-12-13-redis-docs.md)
    * [2013-01-07-solve-the-problem-of-bad-file-number-where-ssh-on-port-22](2013-01-07-solve-the-problem-of-bad-file-number-wh.md)
    * [2013-01-08-redis-replication-in-practice](2013-01-08-redis-replication-in-practice.md)
+   * 2013-03-27-java-class-loader
 
