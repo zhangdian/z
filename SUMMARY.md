@@ -12,7 +12,6 @@
        * [会议_iCalendar](hui_yi_icalendar.md)
    * [Jabber IM](jabber_im.md)
    * [shell](shell.md)
-   * [Cache](cache.md)
    * [设计模式](she_ji_mo_shi.md)
    * [netty](netty.md)
 * [算法](集群)
