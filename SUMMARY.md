@@ -29,7 +29,6 @@
    * [tomcat](tomcat.md)
 * [Spring](spring.md)
    * [Spring AOP](spring_aop.md)
-   * [POST重复提交](postzhong_fu_ti_jiao.md)
 * Linux
    * [监控](jian_kong.md)
 * [Eclipse](eclipse.md)
